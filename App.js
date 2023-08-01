@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 import { CustomDrawer } from './navigation/CustomDrawer'
 
-import {configStore, applyMiddleware} from 'redux/';
+import {configStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import thunk from 'redux-thunk';
 import rootReducer from './stores/rootReducer.js';
