@@ -5,7 +5,7 @@ import {
     View,
     Text,
     Image
-} from 'reactnative';
+} from 'react-native';
 import {COLORS, FONTS, SIZES, icons} from '../constants';
 
 const HorizontalFoodCard  = ({containerStyle, imageStyle, item, onPress}) => {
